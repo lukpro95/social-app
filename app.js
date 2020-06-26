@@ -32,7 +32,7 @@ app.use(function(req, res, next){ //its gonna call this function for every reque
 
     // make our markdown function available from ejs templates
     res.locals.filterUserHTML = function(content){
-        return sanitizeHTML(markdown(content), {allowedTags: ['p', 'br', 'ul', 'ol', 'strong', 'bold', 'i', 'em', 'h2', 'h3', 'h4'], allowedAttributes: []})
+        return sanitizeHTML(markdown(content), {allowedTags: [], allowedAttributes: []})
     }
 
     //make all error and success flash messages available from all templates
