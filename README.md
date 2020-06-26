@@ -12,4 +12,6 @@ Things you can perform on the app:
 - find posts by content by using search engine in header
 - use real-time chat to speak with all people
 
+Link: https://socialappforcourse.herokuapp.com/
+
 To check some example posts, try typing in "Free" in search engine :)
